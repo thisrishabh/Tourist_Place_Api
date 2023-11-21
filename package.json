@@ -1,0 +1,22 @@
+{
+  "name": "tourist_place_api",
+  "version": "1.0.0",
+  "description": "know about the tourist places present in india.",
+  "main": "app.js",
+  "scripts": {
+    "test": "\"start\":\"nodemon app.js\"",
+    "start":"nodemon app.js"
+  },
+  "author": "Rishabh/Shivam",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
